@@ -1,0 +1,36 @@
+{
+  "name": "remote-terminal-links",
+  "displayName": "Remote Terminal Link Fixer",
+  "description": "Fixes broken file://, OSC 8, and multi-line links in VS Code Remote (SSH / WSL / DevContainers)",
+  "version": "1.1.0",
+  "publisher": "hsm207",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hsm207/vscode-remote-terminal-links.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "remote",
+    "ssh",
+    "wsl",
+    "terminal",
+    "links",
+    "hyperlinks",
+    "osc8",
+    "xterm",
+    "antigravity"
+  ],
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "scripts": {
+    "test": "node --test"
+  }
+}
